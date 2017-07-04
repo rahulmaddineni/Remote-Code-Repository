@@ -1,0 +1,20 @@
+
+  <metadata>
+    <name>
+      C:\Users\maddi\Desktop\Studies\OOD\Project 4 Final\Project 4\Project 4\HttpMessage\HttpMessage.cpp
+    </name>
+    <deps>
+      <dep>
+        C:\Users\maddi\Desktop\Studies\OOD\Project 4 Final\Project 4\Project 4\ServerFiles\MsgClient.h_2016_5_3_23_33_39\MsgClient.h
+      </dep>
+      <dep>
+        C:\Users\maddi\Desktop\Studies\OOD\Project 4 Final\Project 4\Project 4\ServerFiles\Cpp11-BlockingQueue.h_2016_5_3_23_33_9\Cpp11-BlockingQueue.h
+      </dep>
+    </deps>
+    <author>
+      Client1
+    </author>
+    <closed>
+      true
+    </closed>
+  </metadata>
