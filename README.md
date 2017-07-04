@@ -1,5 +1,13 @@
-Commands:
-=========
+# Remote Code Repository
+
+The Remote Code Repository will:
+
+* Support package checkin, where a module is a named small set of closely related packages, usually from the same namespace.
+* Store files in folders based on package name and checkin date.
+* Track dependency relationships between packages.
+* Support extraction of all the files along with their dependencies
+
+## Commands:
 - compile.bat - devenv CommPrototype.sln /rebuild debug
 
 - run.bat - 
@@ -9,21 +17,19 @@ Commands:
 	start MsgServer.exe
 	cd..
 
-Folders:
-========
+### Folders:
+
 - Server stores files in "ServerFiles" folder.
 - Extracted files from the server are stored in "ExtractedFiles" folder.
 
-Note:
-====
+### Note:
+
 - Only one client and a server is implemented.
 - Can upload only files, won't work on packages.
 
-Flow :
-======
+## Flow :
 
-CheckIn Tab:
-============
+### CheckIn Tab:
 
 - Start by pressing "Browse File" button to browse files.
 
@@ -41,8 +47,7 @@ CheckIn Tab:
 - Files are stored with metadata and timestamp in "ServerFiles" Folder.
 
 
-Extract Tab:
-==============
+### Extract Tab:
 
 - After uploading files in checkin tab, server files are automatically 
   displayed or press "Get Files" button to display the lastest server files.
@@ -53,3 +58,14 @@ Extract Tab:
    with/without dependency.
 
 - Press "Extract" button to extract the selected files to "ExtractedFiles" Folder.
+
+## Screenshots
+
+### StartUp
+![Starting Up](https://github.com/rahulmaddineni/Remote-Code-Repository/blob/master/Screenshots/Startup.PNG)
+
+### Upload Files with Dependencies
+![Uploading](https://github.com/rahulmaddineni/Remote-Code-Repository/blob/master/Screenshots/Uplading.PNG)
+
+### Extract Files with Dependencies
+![Extracting](https://github.com/rahulmaddineni/Remote-Code-Repository/blob/master/Screenshots/Extracting.PNG)
